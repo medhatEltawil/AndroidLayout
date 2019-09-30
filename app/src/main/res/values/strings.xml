@@ -1,3 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+
+    <string name="app_name">GraphIT</string>
+    <string name="action_analysis">Analysis</string>
+    <string name="y1">Y1= </string>
+    <string name="y2">Y2= </string>
+    <string name="y3">Y3= </string>
+    <string name="y4">Y4= </string>
+    <string name="y5">Y5= </string>
+    <string name="label_plotButton">Plot</string>
+    <string name="label_xHeader">Width</string>
+    <string name="label_xlowerlimit">left</string>
+    <string name="label_xupperlimit">right</string>
+    <string name="label_yHeader">Height</string>
+    <string name="label_ylowerlimit">bottom</string>
+    <string name="label_yupperlimit">top</string>
+    <string name="default_x1_value">-5</string>
+    <string name="default_x2_value">5</string>
+    <string name="default_y1_value">-10</string>
+    <string name="default_y2_value">10</string>
+    <string name="hint_range">Range</string>
+    <string name="automatic">Automatic</string>
+    <string name="action_graph">Graph</string>
+    <string name="action_help">Help</string>
+    <string name="tab_edit_function">Functions</string>
+    <string name="tap_window_settings">Window</string>
+    <string name="help">Help!</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_domain">left limit is higher than the right limit.</string>
+    <string name="error_range">lower limit exceeds upper limit.</string>
+    <string name="error_not_valid_value">not valid value.</string>
+    <string name="error_not_valid_xmin">not valid left limit.</string>
+    <string name="error_not_valid_xmax">not valid right limit.</string>
+    <string name="error_not_valid_ymin">not valid lower limit.</string>
+    <string name="error_not_valid_ymax">not valid upper limit.</string>
+    <string name="error_value_not_in_interval">value lies not within specified interval.</string>
+    <string name="error_vague">something went wrong.</string>
+    <string name="not_defined_value">-</string>
+    <string name="bad_formel">bad formula</string>
+    <string name="please_wait">please wait &#8230;</string>
+    <string name="integral">integral</string>
+    <string name="ok">OK</string>
+    <string name="intersection_point">intersection point</string>
+    <string name="extreme_point">extreme point</string>
+    <string name="zero_point">zero point</string>
+    <string name="find_next">Find (next):</string>
+    <string name="no_solution">no solution could be found</string>
+    <string name="tip">Tip</string>
+    <string-array name="tips_array">
+        <item>touch the graph to move the cursor</item>
+        <item>long press any number under the graph to see more accurate value</item>
+        <item>to perform definite integral activate the second cursor, then click more</item>
+        <item>before clicking the more-button place the cursor so close as possible to the requirede destination</item>
+        <item>you con plot the integral of function y1,which goes through the point (1,2) like this ∫(y1,1,2)</item>
+        <item>to shift function y1 to the right by 2 enter : y1(x-2) </item>
+        <item>functions can only reference perior functions.so function y2 can only reference y1</item>
+        <item>To navigate within the edit field use the arrow keys</item>
+        <item>To determin the inflection point: plot the drevative then determine the extreme point on it</item>
+
+
+    </string-array>
 </resources>
